@@ -1,3 +1,4 @@
+using System;
 using Unity.MLAgents.Integrations.Match3;
 using UnityEngine;
 
@@ -12,8 +13,8 @@ public class ApplyGravity : MonoBehaviour
         foreach (GameObject target in targets){
             Vector3 direction = (transform.position - target.transform.position).normalized;
 
-            IFall targ = target.GetComponent<IFall>();
-            targ.Fall(new Vector3(direction.y, -direction.x, direction.z), gravityStrength);
+            
+            target.GetComponent<Rigidbody>().linearVelocity = new Vector3(direction.y, -direction.x, direction.z) * (float)Math.Sqrt(gravityStrength*2*(transform.position - target.transform.position).magnitude);
         }
     }
 
