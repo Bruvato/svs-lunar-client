@@ -14,7 +14,7 @@ public class ApplyGravity : MonoBehaviour
             Vector3 direction = (transform.position - target.transform.position).normalized;
 
             
-            target.GetComponent<Rigidbody>().linearVelocity = new Vector3(direction.y, -direction.x, direction.z) * (float)Math.Sqrt(gravityStrength*2*(transform.position - target.transform.position).magnitude);
+            target.GetComponent<Rigidbody>().linearVelocity = new Vector3(direction.y, -direction.x, direction.z) * (float)Math.Sqrt(gravityStrength*(transform.position - target.transform.position).magnitude);
         }
     }
 
