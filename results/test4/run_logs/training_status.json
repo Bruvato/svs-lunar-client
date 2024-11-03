@@ -1,0 +1,38 @@
+{
+    "agentcontroller": {
+        "checkpoints": [
+            {
+                "steps": 499948,
+                "file_path": "results\\test4\\agentcontroller\\agentcontroller-499948.onnx",
+                "reward": 9.977645305514159,
+                "creation_time": 1730613035.0098808,
+                "auxillary_file_paths": [
+                    "results\\test4\\agentcontroller\\agentcontroller-499948.pt"
+                ]
+            },
+            {
+                "steps": 500028,
+                "file_path": "results\\test4\\agentcontroller\\agentcontroller-500028.onnx",
+                "reward": 9.977744807121661,
+                "creation_time": 1730613035.0968285,
+                "auxillary_file_paths": [
+                    "results\\test4\\agentcontroller\\agentcontroller-500028.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500028,
+            "file_path": "results\\test4\\agentcontroller.onnx",
+            "reward": 9.977744807121661,
+            "creation_time": 1730613035.0968285,
+            "auxillary_file_paths": [
+                "results\\test4\\agentcontroller\\agentcontroller-500028.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.5.1+cpu"
+    }
+}

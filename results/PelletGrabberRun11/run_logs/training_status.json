@@ -1,0 +1,29 @@
+{
+    "agentcontroller": {
+        "checkpoints": [
+            {
+                "steps": 175712,
+                "file_path": "results\\PelletGrabberRun11\\agentcontroller\\agentcontroller-175712.onnx",
+                "reward": 10.0,
+                "creation_time": 1730599331.1225402,
+                "auxillary_file_paths": [
+                    "results\\PelletGrabberRun11\\agentcontroller\\agentcontroller-175712.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 175712,
+            "file_path": "results\\PelletGrabberRun11\\agentcontroller.onnx",
+            "reward": 10.0,
+            "creation_time": 1730599331.1225402,
+            "auxillary_file_paths": [
+                "results\\PelletGrabberRun11\\agentcontroller\\agentcontroller-175712.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "2.5.1+cpu"
+    }
+}
