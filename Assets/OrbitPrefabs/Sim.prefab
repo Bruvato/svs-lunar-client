@@ -195,8 +195,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BrainParameters:
-    VectorObservationSize: 6
-    NumStackedVectorObservations: 1
+    VectorObservationSize: 11
+    NumStackedVectorObservations: 31
     m_ActionSpec:
       m_NumContinuousActions: 3
       BranchSizes: 
@@ -231,7 +231,7 @@ MonoBehaviour:
   MaxStep: 0
   target: {fileID: 3858069008987268555}
   origin: {fileID: 0}
-  moveSpeedModifier: 0.1
+  moveSpeedModifier: 0.15
 --- !u!114 &1756971773870792078
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   origin: {fileID: 1012657925728876434}
   gravityStrength: 1
-  launchVelocityModifier: 0
+  launchVelocityModifier: 0.05
   startingOffset: {x: 0, y: 20, z: 0}
 --- !u!1 &3791799541897480562
 GameObject:
@@ -354,7 +354,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 25
+  m_Radius: 60
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3858069008987268555
 GameObject:
@@ -588,7 +588,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: e50d2978448941a468dd76e8d04d7371, type: 2}
+  - {fileID: 2100000, guid: 3a304dc6f7191664ab998d696d4685a6, type: 2}
+  - {fileID: 2100000, guid: 7340b75be1014a0448bccf733939f307, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
