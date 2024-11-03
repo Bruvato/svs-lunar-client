@@ -54,6 +54,9 @@ ExportedObj/
 
 # Unity3D generated file on crash reports
 sysinfo.txt
+# Python Virtual Environments
+/MLvenv/
+/venv/
 
 # Builds
 *.apk

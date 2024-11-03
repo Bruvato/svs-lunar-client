@@ -4,8 +4,12 @@
 TagManager:
   serializedVersion: 3
   tags:
+<<<<<<< HEAD
   - pellet
   - walls
+=======
+  - GravityTarget
+>>>>>>> df0a645e837a8d9538f97e5c9f206f48ef51f5ba
   layers:
   - Default
   - TransparentFX
@@ -13,8 +17,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - LoseZone
+  - WinZone
   - 
   - 
   - 
