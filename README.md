@@ -1,3 +1,5 @@
+[Winner of Interstellar Intelligence Award at Boston Hacks 2024](https://devpost.com/software/jtr)
+
 # BostonHacks2024
 
 ###### 
