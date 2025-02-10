@@ -1,7 +1,6 @@
 
 # SVS Lunar Client
-
-###### 
+###  Live testing of vehicles, especially space vehicles, carries many risks, so we decided that creating a realistic simulation would create the best environment to train AI with minimal risks. 
 
 ###### 
 
