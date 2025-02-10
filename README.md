@@ -1,12 +1,13 @@
-[Winner of Interstellar Intelligence Award at Boston Hacks 2024](https://devpost.com/software/jtr)
 
-# BostonHacks2024
-
-###### 
+# SVS Lunar Client
 
 ###### 
 
-###### Video Walkthrough available [here](https://www.youtube.com/watch?v=NQ5OTRC5FMQ)
+###### 
+
+###### [Video Walkthrough](https://www.youtube.com/watch?v=NQ5OTRC5FMQ)
+###### [Devpost](https://devpost.com/software/jtr)
+#### Winner of Interstellar Intelligence at Boston Hacks 2024
 
 # Requirements:
 
